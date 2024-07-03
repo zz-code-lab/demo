@@ -2,9 +2,10 @@ import time
 import numpy as np
 from utils import DataWriter
 
+#数据库的写入接口
 cisco_writer = DataWriter()
 
-# CPU使用率、内存利用率、
+# CPU使用率、内存利用率
 def low_high_random(low, high):
     return np.random.rand()*(high - low) + low
 
